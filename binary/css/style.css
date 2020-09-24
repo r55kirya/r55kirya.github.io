@@ -909,6 +909,10 @@ body.ie .ibg img {
 	font-size: 14px;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .fullscreen {
 	-webkit-box-flex: 0;
 	    -ms-flex: 0 1 auto;
@@ -1439,7 +1443,8 @@ body.ie .ibg img {
 @media (max-width: 767px) {
 	.contact__send {
 		border: 1px solid #000;
-		font-size: 25px;
+		font-size: 18px;
+		letter-spacing: 1.5px;
 		margin: 0px 0px 20px 0;
 	}
 }
@@ -1516,6 +1521,9 @@ body.ie .ibg img {
 }
 .column2__social {
 	margin: 0px 0px 15px 0px;
+}
+.column2__social img {
+	padding: 0 5px;
 }
 .column2__mail {
 	font-weight: 300;
