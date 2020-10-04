@@ -930,13 +930,7 @@ body.ie .ibg img {
 }
 
 .popup-close {
-	width: 15px;
-	height: 15px;
-	position: absolute;
-	top: 0px;
-	right: 0px;
 	cursor: pointer;
-	background: url("../img/icons/close.png") 0 0 no-repeat;
 }
 
 .popup-video .popup-close {
@@ -945,6 +939,60 @@ body.ie .ibg img {
 	background-color: #000;
 	top: 0;
 	right: 0;
+}
+
+.popup-content {
+	width: 456px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 0;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 48px 0px;
+}
+
+.popup__logo {
+	margin: 0px 0px 12px 0px;
+}
+.popup__title {
+	font-family: Myriad Pro;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+	color: #3cd072;
+	margin: 0px 0px 24px 0px;
+}
+.popup__txt {
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000000;
+	margin: 0px 0px 18px 0px;
+	width: 326px;
+	text-align: center;
+}
+.popup__btn {
+	color: #fff;
+}
+
+.popup-close {
+	padding: 12px 0;
+	text-align: center;
+	font-family: Myriad Pro;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #ffffff;
+	width: 136px;
+	background-color: #3cd072;
+	border-radius: 5px;
 }
 
 /*
