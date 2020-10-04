@@ -37,8 +37,8 @@
 								<form action="#" method="post" enctype="multipart/form-data">
 									<div class="charger__form">
 										<p class="charger__form_sign">Sign up for the release date:</p>
-										<input placeholder="Your e-mail" type="text" name="email" class="charger__form_input">
-										<button type="submit" class="charger__form_btn">Notify me</button>
+										<input placeholder="Your e-mail" type="text" name="email" class="charger__form_input email req">
+										<button href="#thx" type="reset" class="charger__form_btn pl">Notify me</button>
 									</div>
 								</form>
 							</div>
@@ -197,7 +197,7 @@
 								<div class="charger__form release__form">
 									<p class="charger__form_sign release__form_sign">Sign up for the release date:</p>
 									<input placeholder="Your e-mail" type="text" name="email" class="charger__form_input release__form_input email req">
-									<button type="submit" class="charger__form_btn release__form_btn">Notify me</button>
+									<button href="#thx" type="submit" class="charger__form_btn release__form_btn pl">Notify me</button>
 								</div>
 							</form>
 						</div>
@@ -386,39 +386,19 @@
 		</div>
 	</div>
 </footer>		</div>
-<div class="popup">
+<div class="popup popup-thx">
 	<div class="popup-table table">
 		<div class="cell">
 			<div class="popup-content">
-				<div class="popup-close"></div>
-				<div class="popup__title"></div>
-				<div class="popup__txt"></div>
-				<form action="#" class="popup-form form">
-					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="" class="input" />
-					</div>
-					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req email" />
-					</div>
-					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req" />
-					</div>
-					<div class="form-button">
-						<button type="submit" class="form__btn btn fw"></button>
-					</div>
-				</form>
+				<div class="popup__logo"><img src="img/popup__logo.png" alt=""></div>
+				<div class="popup__title">Your message was sent</div>
+				<div class="popup__txt">We will e-mail you when PlugSpot is available for download. Thank you!</div>
+				<div class="popup-close">Close</div>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="popup popup-video">
-	<div class="popup-table table">
-		<div class="cell">
-			<div class="popup-close"></div>
-			<div class="popup-video__value video"></div>
-		</div>
-	</div>
-</div><script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"></script> -->
 <script src="js/vendors.js"></script>
 <script src="js/main.js"></script>
